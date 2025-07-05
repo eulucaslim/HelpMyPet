@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Help My Pet 🐶
 
-## Getting Started
+Este é um projeto Next.js desenvolvido para a iniciativa "Help My Pet". Este README.md guiará você através da configuração e execução do projeto utilizando o Yarn.
+Pré-requisitos
 
-First, run the development server:
+Antes de começar, certifique-se de ter o Node.js e o Yarn instalados em sua máquina.
 
-```bash
-npm run dev
-# or
+    Node.js: Você pode baixá-lo em nodejs.org. Recomenda-se a versão LTS.
+
+    Yarn: Após instalar o Node.js, você pode instalar o Yarn globalmente com o seguinte comando:
+
+    npm install -g yarn
+
+
+Instalação
+
+    Clone o repositório:
+
+    git clone git@github.com:eulucaslim/HelpMyPet.git
+    cd help-my-pet
+
+
+    Instale as dependências:
+
+    Navegue até o diretório do projeto e instale todas as dependências necessárias utilizando o Yarn:
+
+    yarn install
+
+
+Executando o Projeto
+
+Para iniciar o servidor de desenvolvimento do Next.js, use o seguinte comando:
+
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Isso iniciará o aplicativo em modo de desenvolvimento. Você poderá acessá-lo no seu navegador em http://localhost:3000.
+Comandos Úteis do Yarn
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Aqui estão alguns comandos Yarn úteis que você pode precisar durante o desenvolvimento:
 
-## Learn More
+    yarn dev: Inicia o servidor de desenvolvimento.
 
-To learn more about Next.js, take a look at the following resources:
+    yarn build: Cria uma versão otimizada para produção do seu aplicativo.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    yarn start: Inicia o servidor de produção após a execução de yarn build.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    yarn lint: Executa o linter para verificar problemas de código.
 
-## Deploy on Vercel
+Estrutura do Projeto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+O projeto segue a estrutura padrão de um aplicativo Next.js:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    pages/: Contém as páginas da sua aplicação. Cada arquivo JavaScript/TypeScript neste diretório se torna uma rota.
+
+    public/: Armazena arquivos estáticos como imagens, fontes, etc.
+
+    components/: Onde você pode criar seus componentes React reutilizáveis.
+
+    styles/: Contém seus arquivos CSS/Sass/Modules.
+
+Sinta-se à vontade para explorar e contribuir com o projeto! Se tiver alguma dúvida, abra uma issue no repositório.
