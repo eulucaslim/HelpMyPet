@@ -1,0 +1,19 @@
+.submitedButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 2.8rem;
+    margin-top: 1rem;
+    border: 0;
+    border-radius: 2.5rem;
+    padding: 1rem;
+    background: var(--background);
+    transition: filter 0.2s;
+    font-size: 1rem;
+    font-family: 'Geist';
+
+    &:hover {
+       filter: brightness(0.8);
+    }
+}

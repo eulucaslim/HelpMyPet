@@ -1,0 +1,25 @@
+.contentContainer {
+    background-color: rgb(246, 239, 239);
+    height: 100%;
+    width: 1436px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+
+    h1 {
+        margin: 0 3rem;
+        font-size: 2.5rem;
+    }
+
+    input {
+        width: 260px;
+        height: 2.8rem;
+        margin-top: 1rem;
+        border: 0;
+        border-radius: 2.5rem;
+        padding: 1rem;
+    }
+}
