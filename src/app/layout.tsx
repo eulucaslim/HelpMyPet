@@ -1,5 +1,6 @@
 import "../styles/global.scss";
 import { Geist } from 'next/font/google'
+import Login from "./login/page";
 
 const geist = Geist({
   subsets: ['latin'],
